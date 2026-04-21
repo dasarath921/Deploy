@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>NovaMart — Premium E-Commerce UI</title>
+  <title>BuyNest — Your Smart Shopping Hub</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -1173,9 +1173,21 @@
 <body>
   <header class="topbar">
     <div class="container nav">
-      <a href="#" class="brand">
-        <span class="brand-mark"><i class="fa-solid fa-bolt"></i></span>
-        <span class="brand-text">NovaMart</span>
+      <a href="#" class="brand" aria-label="BuyNest home">
+        <svg width="190" height="54" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BuyNest logo">
+          <defs>
+            <linearGradient id="buyNestHeaderGrad" x1="0" y1="0" x2="90" y2="90">
+              <stop stop-color="#4F46E5"/>
+              <stop offset="0.5" stop-color="#06B6D4"/>
+              <stop offset="1" stop-color="#7C3AED"/>
+            </linearGradient>
+          </defs>
+          <rect x="8" y="8" width="60" height="60" rx="18" fill="url(#buyNestHeaderGrad)"/>
+          <path d="M25 42H55C57 42 58 44 58 46V50C58 56 54 60 48 60H32C26 60 22 56 22 50V46C22 44 23 42 25 42Z" fill="white"/>
+          <path d="M30 42C30 36 35 32 40 32C45 32 50 36 50 42" stroke="white" stroke-width="3" stroke-linecap="round"/>
+          <text x="80" y="40" fill="currentColor" font-size="26" font-weight="800" font-family="Plus Jakarta Sans, Arial, sans-serif">BuyNest</text>
+          <text x="80" y="58" fill="currentColor" opacity="0.55" font-size="10" font-weight="700" font-family="Plus Jakarta Sans, Arial, sans-serif" letter-spacing="1">SMART SHOPPING HUB</text>
+        </svg>
       </a>
 
       <div class="nav-center">
@@ -1213,10 +1225,9 @@
           <div class="hero-grid">
             <div class="hero-copy">
               <div class="eyebrow"><i class="fa-solid fa-sparkles"></i> Curated luxury drops • New season collection</div>
-              <h1>Shop the <span>future</span> of modern lifestyle.</h1>
+              <h1>Shop smarter with <span>BuyNest</span></h1>
               <p>
-                Premium gadgets, statement fashion, and everyday essentials designed with a bold visual identity.
-                Experience a richer storefront with better discovery, cleaner navigation, and standout product storytelling.
+                Discover premium gadgets, statement fashion, and everyday essentials in a storefront built for faster discovery, stronger branding, and a smoother shopping experience.
               </p>
               <div class="hero-cta">
                 <button class="btn btn-primary" id="shopNowHero">Shop Collection <i class="fa-solid fa-arrow-right"></i></button>
@@ -1234,9 +1245,9 @@
                 <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80" alt="Premium sneakers">
                 <div class="hero-card-row">
                   <div>
-                    <p style="opacity:.8; margin-bottom:4px;">Spotlight product</p>
-                    <h3>Nova Air Pulse</h3>
-                    <span style="opacity:.85;">Engineered comfort • Limited release</span>
+                    <p style="opacity:.8; margin-bottom:4px;">BuyNest spotlight</p>
+                    <h3>AirNest Pulse</h3>
+                    <span style="opacity:.85;">Engineered comfort • limited release</span>
                   </div>
                   <div style="text-align:right;">
                     <strong style="font-size:1.4rem;">$279</strong>
@@ -1290,8 +1301,8 @@
               <button class="sort-btn" data-sort="top-rated">Top rated</button>
             </div>
             <div class="side-offer">
-              <h4>Members Week</h4>
-              <p>Use code <strong>NOVA10</strong> for an extra discount on trending collections and premium bundles.</p>
+              <h4>BuyNest Plus</h4>
+              <p>Use code <strong>BUYNEST10</strong> for an extra discount on trending collections and premium bundles.</p>
               <button class="btn btn-primary" style="width:100%; height:48px;">Unlock offer</button>
             </div>
           </aside>
@@ -1303,7 +1314,7 @@
 
         <div class="deal-banner" id="deals">
           <div class="deal-copy">
-            <h3>Flash deal on MacBook Pro M3</h3>
+            <h3>Exclusive BuyNest deal on MacBook Pro M3</h3>
             <p>
               A cleaner promotional block with bold typography, stronger countdown cards, and higher image contrast for better conversion focus.
             </p>
@@ -1340,7 +1351,7 @@
         <div class="newsletter">
           <div class="newsletter-grid">
             <div>
-              <h3>Join the NovaMart inner circle</h3>
+              <h3>Join the BuyNest inner circle</h3>
               <p>Get early access to limited drops, weekly curated edits, members-only bundles, and launch-day promotions.</p>
               <div class="newsletter-msg" id="newsletterMsgModern"></div>
             </div>
@@ -1362,10 +1373,22 @@
       <div class="footer-wrap">
         <div class="footer-brand">
           <div class="brand" style="margin-bottom:12px;">
-            <span class="brand-mark"><i class="fa-solid fa-bolt"></i></span>
-            <span class="brand-text">NovaMart</span>
+            <svg width="190" height="54" viewBox="0 0 320 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BuyNest logo">
+              <defs>
+                <linearGradient id="buyNestFooterGrad" x1="0" y1="0" x2="90" y2="90">
+                  <stop stop-color="#4F46E5"/>
+                  <stop offset="0.5" stop-color="#06B6D4"/>
+                  <stop offset="1" stop-color="#7C3AED"/>
+                </linearGradient>
+              </defs>
+              <rect x="8" y="8" width="60" height="60" rx="18" fill="url(#buyNestFooterGrad)"/>
+              <path d="M25 42H55C57 42 58 44 58 46V50C58 56 54 60 48 60H32C26 60 22 56 22 50V46C22 44 23 42 25 42Z" fill="white"/>
+              <path d="M30 42C30 36 35 32 40 32C45 32 50 36 50 42" stroke="white" stroke-width="3" stroke-linecap="round"/>
+              <text x="80" y="40" fill="currentColor" font-size="26" font-weight="800" font-family="Plus Jakarta Sans, Arial, sans-serif">BuyNest</text>
+              <text x="80" y="58" fill="currentColor" opacity="0.55" font-size="10" font-weight="700" font-family="Plus Jakarta Sans, Arial, sans-serif" letter-spacing="1">SMART SHOPPING HUB</text>
+            </svg>
           </div>
-          <p>Next-generation commerce with premium visuals, elevated interactions, and modern shopping flows.</p>
+          <p>BuyNest blends premium visuals, elevated interactions, and modern shopping flows into one polished storefront experience.</p>
         </div>
         <div class="footer-col">
           <h4>Shop</h4>
@@ -1386,7 +1409,7 @@
           <p>Contact</p>
         </div>
       </div>
-      <div class="copyright">© 2026 NovaMart — Premium storefront redesign</div>
+      <div class="copyright">© 2026 BuyNest — Your Smart Shopping Hub</div>
     </div>
   </footer>
 
